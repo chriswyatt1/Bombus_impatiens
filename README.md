@@ -46,4 +46,5 @@ Where input was just out Bombus impatien genome. "go_species.txt" was
  | apgca005508785v2rs_eg_gene | Acyrthosiphon pisum | Pea aphid | 
  | nvitripennis_eg_gene | Nasonia vitripennis | Jewel wasp |
 
-The output GO hash information is in results/
+The output GO hash information is in results/go . The output go file is stored in this repo:
+`data/Bombus_impatiens.GO_format.txt`
