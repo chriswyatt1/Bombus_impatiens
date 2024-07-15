@@ -13,10 +13,19 @@ With the following command (e.g. for brain):
 
 Using the output from the nf-core rnaseq pipeline, I took "deseq2.dds.RData" output, to use as the input to DESeq2.
 
-I also made the coldata file, usoing code in `bin/file2coldata.R`:
+Then saved the file names to a file:
+`sample_names<- dds$sample`
+`write.csv(sample_names, "samples.csv", row.names = FALSE, quote=F)`
+
+Before running: `bin/file2coldata.R` to extract the samples and their ID code in the second part of name tag (X1.**A01**.A3_S1_L002):
+
+`Rscript file2coldata.R samples.csv`
+
+Before editing in an editor to match A,C (Controls), B,D,E,F (Exposed) and exntering coldata file to R.
 
 `coldata<- read.csv("coldata.condition.csv", sep="\t", row.names=1)`
 
+Then I ran the R code in bin/R_differential_expr.R
 
 ## GO annotation
 
