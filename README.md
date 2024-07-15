@@ -11,7 +11,7 @@ With the following command (e.g. for brain):
 
 ## Differential expression
 
-Using the output from the nf-core rnaseq pipeline, I took "deseq2.dds.RData" output, to use as the input to DESeq2. 
+Using the output from the nf-core rnaseq pipeline, I took "deseq2.dds.RData" output, to use as the input to DESeq2.
 
 I also made the coldata file, usoing code in `bin/file2coldata.R`:
 
