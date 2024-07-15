@@ -25,7 +25,8 @@ Before editing in an editor to match A,C (Controls), B,D,E,F (Exposed) and exnte
 
 `coldata<- read.csv("coldata.condition.csv", sep="\t", row.names=1)`
 
-Then I ran the R code in bin/R_differential_expr.R
+Then I ran the R code in bin/differential.expression.R
+which runs DESeq2, and makes the PCA, volcano and other plots. Also makes the DESeq2 differtial table different between control and exposed.
 
 ## GO annotation
 
