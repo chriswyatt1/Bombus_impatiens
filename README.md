@@ -1,7 +1,7 @@
 # Bombus_impatiens
 Repo of Bombus genome and toxicity exposure
 
-## RNA-Seq
+## RNA-Seq (raw data to counts)
 
 All 60 and 67, brain and fatbody RNA-Seq dataset were run through nf-core rnaseq v3.14.0 (using Nextflow version 24.04.2) separately.
 
