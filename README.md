@@ -1,5 +1,16 @@
 # Bombus_impatiens
-Repo of Bombus genome and toxicity exposure
+Repo of Bombus genome and toxicity exposure 
+
+
+
+(To be deleted). 
+
+
+Moved to https://github.com/ISUgenomics/2024_Toth_Bimpatiens
+
+
+
+
 
 ## RNA-Seq (raw data to counts)
 
